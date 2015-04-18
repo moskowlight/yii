@@ -1,0 +1,396 @@
+2015/04/08 02:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "book".' in Z:\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book')
+#1 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/book
+---
+2015/04/08 02:43:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('my')
+#3 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/my
+---
+2015/04/08 02:44:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "one".' in Z:\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('one')
+#1 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/one
+---
+2015/04/08 02:44:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yii\www\framework\web\CController.php(270): CController->missingAction('index')
+#1 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#2 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('my/index')
+#3 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/my/index
+---
+2015/04/08 02:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yii\www\framework\web\CController.php(270): CController->missingAction('index')
+#1 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#2 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('My/index')
+#3 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/My/index
+---
+2015/04/08 02:47:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yii\www\framework\web\CController.php(270): CController->missingAction('')
+#1 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('My')
+#3 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/My/
+---
+2015/04/08 02:48:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "book/one".' in Z:\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/one')
+#1 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/book/one
+---
+2015/04/08 02:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "book".' in Z:\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book')
+#1 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/book/
+---
+2015/04/08 02:51:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "book".' in Z:\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book')
+#1 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/book/
+---
+2015/04/08 02:51:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "book/index".' in Z:\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#1 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/08 16:16:02 [error] [exception.CException] exception 'CException' with message 'В классе Book и его поведениях не найден метод или замыкание с именем "finByPk".' in Z:\home\yii\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(227): CComponent->__call('finByPk', Array)
+#1 Z:\home\yii\www\protected\controllers\BookController.php(15): CActiveRecord->__call('finByPk', Array)
+#2 Z:\home\yii\www\protected\controllers\BookController.php(15): Book->finByPk(3)
+#3 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#9 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/08 16:16:43 [error] [exception.CException] exception 'CException' with message 'В классе Book и его поведениях не найден метод или замыкание с именем "finByPk".' in Z:\home\yii\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(227): CComponent->__call('finByPk', Array)
+#1 Z:\home\yii\www\protected\controllers\BookController.php(15): CActiveRecord->__call('finByPk', Array)
+#2 Z:\home\yii\www\protected\controllers\BookController.php(15): Book->finByPk(3)
+#3 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#9 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/08 16:16:45 [error] [exception.CException] exception 'CException' with message 'В классе Book и его поведениях не найден метод или замыкание с именем "finByPk".' in Z:\home\yii\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(227): CComponent->__call('finByPk', Array)
+#1 Z:\home\yii\www\protected\controllers\BookController.php(15): CActiveRecord->__call('finByPk', Array)
+#2 Z:\home\yii\www\protected\controllers\BookController.php(15): Book->finByPk(3)
+#3 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#9 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/08 16:18:42 [error] [exception.CException] exception 'CException' with message 'В классе Book и его поведениях не найден метод или замыкание с именем "findAllPk".' in Z:\home\yii\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findAllPk', Array)
+#1 Z:\home\yii\www\protected\controllers\BookController.php(17): CActiveRecord->__call('findAllPk', Array)
+#2 Z:\home\yii\www\protected\controllers\BookController.php(17): Book->findAllPk(Array)
+#3 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#9 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/08 16:45:52 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. Выполнявшийся SQL-запрос: SELECT `title` FROM _obook WHERE id= :num.
+in Z:\home\yii\www\protected\controllers\BookController.php (18)
+in Z:\home\yii\www\index.php (13)
+2015/04/08 16:45:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. The SQL statement executed was: SELECT `title` FROM _obook WHERE id= :num' in Z:\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\yii\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 Z:\home\yii\www\protected\controllers\BookController.php(18): CActiveRecord->findBySql('SELECT `title` ...', Array)
+#3 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#9 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/08 16:46:19 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. Выполнявшийся SQL-запрос: SELECT `title` FROM _obook WHERE id= :num.
+in Z:\home\yii\www\protected\controllers\BookController.php (18)
+in Z:\home\yii\www\index.php (13)
+2015/04/08 16:46:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. The SQL statement executed was: SELECT `title` FROM _obook WHERE id= :num' in Z:\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\yii\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 Z:\home\yii\www\protected\controllers\BookController.php(18): CActiveRecord->findBySql('SELECT `title` ...', Array)
+#3 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#9 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/08 16:46:49 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. Выполнявшийся SQL-запрос: SELECT title FROM _obook WHERE id= :num.
+in Z:\home\yii\www\protected\controllers\BookController.php (18)
+in Z:\home\yii\www\index.php (13)
+2015/04/08 16:46:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. The SQL statement executed was: SELECT title FROM _obook WHERE id= :num' in Z:\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\yii\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 Z:\home\yii\www\protected\controllers\BookController.php(18): CActiveRecord->findBySql('SELECT title FR...', Array)
+#3 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#9 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/08 16:48:52 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. Выполнявшийся SQL-запрос: SELECT title FROM _obook WHERE id= :num.
+in Z:\home\yii\www\protected\controllers\BookController.php (18)
+in Z:\home\yii\www\index.php (13)
+2015/04/08 16:48:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. The SQL statement executed was: SELECT title FROM _obook WHERE id= :num' in Z:\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\yii\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 Z:\home\yii\www\protected\controllers\BookController.php(18): CActiveRecord->findBySql('SELECT title FR...', Array)
+#3 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#9 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/08 16:52:03 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. Выполнявшийся SQL-запрос: SELECT title FROM _obook WHERE id = :num.
+in Z:\home\yii\www\protected\controllers\BookController.php (18)
+in Z:\home\yii\www\index.php (13)
+2015/04/08 16:52:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. The SQL statement executed was: SELECT title FROM _obook WHERE id = :num' in Z:\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\yii\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 Z:\home\yii\www\protected\controllers\BookController.php(18): CActiveRecord->findBySql('SELECT title FR...', Array)
+#3 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#9 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/08 16:52:14 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. Выполнявшийся SQL-запрос: SELECT title FROM _obook WHERE id =1.
+in Z:\home\yii\www\protected\controllers\BookController.php (18)
+in Z:\home\yii\www\index.php (13)
+2015/04/08 16:52:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. The SQL statement executed was: SELECT title FROM _obook WHERE id =1' in Z:\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\yii\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 Z:\home\yii\www\protected\controllers\BookController.php(18): CActiveRecord->findBySql('SELECT title FR...')
+#3 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#9 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/08 16:52:54 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetch(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. Выполнявшийся SQL-запрос: SELECT title FROM _obook WHERE id =1.
+in Z:\home\yii\www\protected\controllers\BookController.php (18)
+in Z:\home\yii\www\index.php (13)
+2015/04/08 16:52:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii._obook' doesn't exist. The SQL statement executed was: SELECT title FROM _obook WHERE id =1' in Z:\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\yii\www\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(1563): CDbCommand->queryRow()
+#2 Z:\home\yii\www\protected\controllers\BookController.php(18): CActiveRecord->findBySql('SELECT title FR...')
+#3 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#9 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/18 16:24:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in Z:\home\yii\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\yii\www\framework\web\CController.php(270): CController->missingAction('index')
+#1 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#2 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('my/index')
+#3 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 Z:\home\yii\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/my/index
+---
+2015/04/18 16:29:54 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchColumn(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT title FROM o_book WHERE id = 1' at line 1. Выполнявшийся SQL-запрос: SELECT COUNT(*) FROM `o_book` `t` WHERE SELECT title FROM o_book WHERE id = :num.
+in Z:\home\yii\www\protected\controllers\BookController.php (18)
+in Z:\home\yii\www\index.php (13)
+2015/04/18 16:29:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT title FROM o_book WHERE id = 1' at line 1. The SQL statement executed was: SELECT COUNT(*) FROM `o_book` `t` WHERE SELECT title FROM o_book WHERE id = :num' in Z:\home\yii\www\framework\db\CDbCommand.php:543
+Stack trace:
+#0 Z:\home\yii\www\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(1606): CDbCommand->queryScalar()
+#2 Z:\home\yii\www\protected\controllers\BookController.php(18): CActiveRecord->count('SELECT title FR...', Array)
+#3 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#4 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#8 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#9 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 Z:\home\yii\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/18 16:39:17 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbCriteria.:title".' in Z:\home\yii\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\yii\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':title', '?? ?????? ?????...')
+#1 Z:\home\yii\www\framework\db\schema\CDbCommandBuilder.php(588): CDbCriteria->__construct(Array)
+#2 Z:\home\yii\www\framework\db\schema\CDbCommandBuilder.php(617): CDbCommandBuilder->createCriteria(Array, Array)
+#3 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(1751): CDbCommandBuilder->createPkCriteria(Object(CMysqlTableSchema), '2', Array, Array)
+#4 Z:\home\yii\www\protected\controllers\BookController.php(18): CActiveRecord->updateByPk('2', 'title = :title', Array)
+#5 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#6 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#10 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#11 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 Z:\home\yii\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/18 16:42:18 [error] [php] Invalid argument supplied for foreach() (Z:\home\yii\www\framework\db\schema\CDbCommandBuilder.php:371)
+Stack trace:
+#0 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#1 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 Z:\home\yii\www\framework\web\CController.php(286): BookController->runAction()
+#3 Z:\home\yii\www\framework\web\CController.php(265): BookController->runActionWithFilters()
+#4 Z:\home\yii\www\framework\web\CWebApplication.php(282): BookController->run()
+#5 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 Z:\home\yii\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/book/index
+in Z:\home\yii\www\protected\controllers\BookController.php (18)
+in Z:\home\yii\www\index.php (13)
+2015/04/18 16:46:32 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbCriteria.:title".' in Z:\home\yii\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\yii\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':title', '?? ?????? ?????...')
+#1 Z:\home\yii\www\framework\db\schema\CDbCommandBuilder.php(588): CDbCriteria->__construct(Array)
+#2 Z:\home\yii\www\framework\db\schema\CDbCommandBuilder.php(617): CDbCommandBuilder->createCriteria(Array, Array)
+#3 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(1751): CDbCommandBuilder->createPkCriteria(Object(CMysqlTableSchema), '2', Array, Array)
+#4 Z:\home\yii\www\protected\controllers\BookController.php(18): CActiveRecord->updateByPk('2', 'title=:title', Array)
+#5 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#6 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#10 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#11 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 Z:\home\yii\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/18 16:55:32 [error] [exception.CDbException] exception 'CDbException' with message 'Нет столбцов подлежащих обновлению в таблице "o_book".' in Z:\home\yii\www\framework\db\schema\CDbCommandBuilder.php:395
+Stack trace:
+#0 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(1752): CDbCommandBuilder->createUpdateCommand(Object(CMysqlTableSchema), Array, Object(CDbCriteria))
+#1 Z:\home\yii\www\protected\controllers\BookController.php(19): CActiveRecord->updateByPk(Array, Array)
+#2 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#3 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#7 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#8 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 Z:\home\yii\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/book/index
+---
+2015/04/18 17:19:24 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDbCriteria.:title".' in Z:\home\yii\www\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\home\yii\www\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':title', '??????')
+#1 Z:\home\yii\www\framework\db\schema\CDbCommandBuilder.php(588): CDbCriteria->__construct(Array)
+#2 Z:\home\yii\www\framework\db\schema\CDbCommandBuilder.php(617): CDbCommandBuilder->createCriteria(Array, Array)
+#3 Z:\home\yii\www\framework\db\ar\CActiveRecord.php(1751): CDbCommandBuilder->createPkCriteria(Object(CMysqlTableSchema), '4', Array, Array)
+#4 Z:\home\yii\www\protected\controllers\BookController.php(20): CActiveRecord->updateByPk('4', 'title = :title', Array)
+#5 Z:\home\yii\www\framework\web\actions\CInlineAction.php(49): BookController->actionIndex()
+#6 Z:\home\yii\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\yii\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 Z:\home\yii\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 Z:\home\yii\www\framework\web\CWebApplication.php(282): CController->run('index')
+#10 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('book/index')
+#11 Z:\home\yii\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 Z:\home\yii\www\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php/book/index
+---
